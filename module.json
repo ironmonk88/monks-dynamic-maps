@@ -1,0 +1,21 @@
+{
+  "name": "monks-dynamic-maps",
+  "title": "Monk's Dynamic Maps",
+  "description": "This is just for me to share my dynamic maps between worlds",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.7.9",
+  "author": "Iron Monk",
+  "url": "https://github.com/ironmonk88/monks-dynamic-maps",
+  "manifest": "https://raw.githubusercontent.com/ironmonk88/monks-dynamic-maps/master/module.json",
+  "download": "https://github.com/ironmonk88/monks-dynamic-maps/archive/1.0.0.zip",
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Dynamic Maps",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "module": "SharedData"
+    }
+  ]
+}
